@@ -15,6 +15,10 @@
 
     <?php
 
+        //para trocar de atividade é só ir no link
+        //http://localhost:8081/Exercicios-de-Sintaxe-php/atividade4.php
+        //e trocar o numero na parte "atividade" para a atividade que deseja
+
         $numero = 17;
 
         if ($numero % 2 == 0) 

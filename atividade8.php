@@ -15,15 +15,19 @@
 
     <?php
 
-        $ano = 2016;
+        //para trocar de atividade é só ir no link
+        //http://localhost:8081/Exercicios-de-Sintaxe-php/atividade8.php
+        //e trocar o numero na parte "atividade" para a atividade que deseja
 
-        if ($ano % 4 == int)
+        $ano = 2014;
+
+        if ($ano % 4 == 0)
         {
-            echo "É bissexto";
+            echo "O ano $ano é Bissexto!";
         }
         else
         {
-            echo "n é";
+            echo "O ano $ano não é Bissexto!";
         }
 
     ?>

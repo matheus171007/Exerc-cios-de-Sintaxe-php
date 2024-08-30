@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 2 - Calculadora de Idade</title>
+    <title>Atividade 11 - Soma de Números com while</title>
     <link href="bootstrap.mim.css" rel="stylesheet" />
 </head>
 <body>
     
 <div class="container">
 
-    <h1> Atividade 2 - Calculadora de Idade </h1>
+    <h1> Atividade 11 - Soma de Números com while </h1>
 
     <?php
-
+        
         //para trocar de atividade é só ir no link
-        //http://localhost:8081/Exercicios-de-Sintaxe-php/atividade2.php
+        //http://localhost:8081/Exercicios-de-Sintaxe-php/atividade11.php
         //e trocar o numero na parte "atividade" para a atividade que deseja
 
-        $anoNascimento = 2007;
-        $anoAtual = 2024;
-        $Idade = 0;
+        $soma = 0;
+        $numero = 1;
 
-        $Idade = $anoAtual - $anoNascimento;
-        echo "A idade atual da pessoa é: $Idade";
+        while($numero <= 100)
+        {
+            $soma += $numero;
+            $numero++; 
+        }
+        echo "A Soma dos números é : $soma";
+
     ?>
 
 </div>

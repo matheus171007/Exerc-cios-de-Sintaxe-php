@@ -15,6 +15,10 @@
 
     <?php
 
+        //para trocar de atividade é só ir no link
+        //http://localhost:8081/Exercicios-de-Sintaxe-php/atividade7.php
+        //e trocar o numero na parte "atividade" para a atividade que deseja
+
         $nota = 71;
 
         if ($nota >= 90)
